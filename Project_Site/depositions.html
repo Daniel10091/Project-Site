@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/depositions.css">
+    <link rel="stylesheet" type="text/css" href="css/gototop.css" />
+    <link rel="shortcut icon" href="images/news1.png">
+    <title>TecNews-Depoimentos</title>
+</head>
+<body>
+    <div id="site">
+        <header>
+            <div id="topo">
+                <div class="logo">
+                    <img align="absmiddle" src="images/Banner.png" width="150px" height="140px">
+                    <label id="tytle">TecNews</label>
+                </div>
+                <div class="search">
+                    <form action="news.html">
+                        <input type="text" name="pesquisar" placeholder="pesquisar...">
+                        <button type="submit">BUSCAR</button>
+                    </form>
+                </div>
+            </div>
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="news.html">Notícias</a></li>
+                    <li><a href="#">Depoimentos</a></li>
+                    <li><a href="statistics.html">Estatísticas</a></li>
+                    <li><a href="contact.html">Contatos</a></li>
+                </ul>
+            </nav> 
+        </header>
+        <section>
+            <aside id="left"></aside>
+            <main id="center"></main>
+            <aside id="right"></aside>
+        </section>
+        <section>
+                    <div class="form">
+                        <form method="POST" action="https://api.staticforms.xyz/submit">
+                            <input type="hidden" name="accessKey" value="8248d634-c1b4-4acc-b490-b6a8f9375e1b">
+                            <label>Fale um pouco sobre você</label>
+                            <input type="name" name="name" placeholder="Qual o seu nome, e o que você faz?" required>
+                            <label>Relatar um problema</label>
+                            <input type="text" name="message" placeholder="Em que posso te ajudar?">
+                            <label>Quais os benefícios ou transformaçãos<br>que você obteve neste site?</label>
+                            <textarea name="message" rows="6" placeholder="Relate aqui"></textarea><br>
+                            <label>Você recomendaria ou não este site?</label>
+                            <input type="text" name="subject" placeholder="Sim, recomendaria/Não recomendaria"><br>
+                            <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+                            <button type="submit">ENVIAR</button>
+                        </form>
+                    </div>
+                    <div>
+                        <h1 id="conf">Confira os demais projetos!</h1>
+                            <img src="images/github.png" width="30" align="absmiddle">
+                                <a target="_blank" href="https://github.com/Daniel10091">Link do meu repositório no GitHub</a>
+                    </div>
+        </section>
+        <div class="clear"></div>
+                            <div id="share" class="social-share-wrapper last">
+                                <ul class="social-share">
+                                    <li class="social-share-item">
+                                        <a id="facebook" href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fgithub.com%2FDaniel10091%2FLIvros.git" rel="nofollow" title="Compartilhar no Facebook" class="js-social-share share-review review-facebook" target="_blank"></a>
+                                    </li>
+                                    <li class="social-share-item">
+                                        <a id="twitter" href="https://twitter.com/intent/tweet?url=https://github.com/Daniel10091/LIvros.git" rel="nofollow" title="Compartilhar no Twitter" class="js-social-share share-review review-twitter" target="_blank"></a>
+                                    </li>
+                                    <li class="social-share-item">
+                                        <a id="linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https://github.com/Daniel10091/LIvros.git" rel="nofollow" title="Compartilhar no Linkedin" class="js-social-share share-review review-linkedin" target="_blank"></a>
+                                    </li>
+                                    <li class="social-share-item social-share-whatsapp">
+                                        <a id="whatsapp" href="whatsapp://send?text=https://github.com/Daniel10091/LIvros.git" rel="nofollow" title="Compartilhar no WhatsApp" class="js-social-share-whatsapp share-review review-whatsapp" target="_blank"></a>
+                                    </li>
+                                    <li class="social-share-item social-share-telegram">
+                                        <a id="telegram" href="https://telegram.me/share/url?url=https://github.com/Daniel10091/LIvros.git" target="_blank" rel="nofollow" title="Compartilhar no Telegram" class="js-social-share-telegram share-review review-telegram" target="_blank"></a>
+                                    </li>
+                                    <li class="social-share-item social-share-flipboard">
+                                        <a id="flipboard" href="https://share.flipboard.com/bookmarklet/popout?v=2&amp;url=https://github.com/Daniel10091/LIvros.git" target="_blank" rel="nofollow" title="Compartilhar no Flipboard" class="js-social-share share-review review-flipboard" target="_blank"></a>
+                                    </li>
+                                </ul>
+                            </div>
+        <footer>
+            <p class="who">&copy; 2021 Todo os Direitos Reservados :: Desenvolvido com muito &#10084; por: <a target="_blank" href="https://instagram.com/carvadaniar">Daniel de Carvalho</a></p>
+            <p id="demo"></p>
+				<script>
+				var d = new Date();
+				document.getElementById("demo").innerHTML = d.toDateString();
+				</script>
+        </footer>
+        <button type="image" class="gototop"><span>TOPO</span></button>
+        <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script> 
+        <script src="js/jquery.gototop.js"></script> 
+        <script>
+            $(function(){
+                // $(".gototop").gototop();
+                $(".gototop").gototop({
+                    position : 0,
+                    duration : 1250,
+                    visibleAt : 100,
+                    classname : "isvisible"
+                });
+            });
+        </script>
+    </div>
+</body>
+</html>

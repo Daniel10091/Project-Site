@@ -1,0 +1,115 @@
+#text a:active{
+    -webkit-text-size-adjust: 100%;
+    background-color: #f8f8f8;
+	color: #000000;
+    text-shadow: rgb(54, 202, 9) 0px 2px 4px;
+    border-radius: 40px;
+	outline: 0!important;
+    transition: all 0.3s ease 0s;
+}
+
+h2{
+	-webkit-text-size-adjust: 100%;
+	color: #ffffff;
+	text-shadow: #1fc90fad 1px 1px 2px;
+    margin-bottom: 50px;
+	text-align: center;
+    font: 12px 'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
+    margin-block-start: 2.65em;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+h3{
+	-webkit-text-size-adjust: 100%;
+	color: #ffffff;
+	text-shadow: #1fc90fad 1px 1px 2px;
+    margin-bottom: 50px;
+	text-align: center;
+    font: 12px 'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
+    margin-block-start: 2.65em;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+#text p{
+	-webkit-text-size-adjust: 100%;
+	color: #f8f8f8;
+	margin-top: 50px;
+	text-align: center;
+	margin-left: 21%;
+	margin-right: 21%;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 165%;
+    font-family: 'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
+    word-break: break-word;
+    margin-block-start: 1.65em;
+    margin-block-end: 1.65em;
+}
+
+#cit{
+    -webkit-text-size-adjust: 100%;
+    font: 12px 'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(169, 169, 169);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 165%;
+    word-break: break-word;
+    margin-block-start: 1.65em;
+    margin-block-end: 1.65em;
+    list-style: none;
+    padding-inline-start: 20px;
+    padding-inline-end: 10px;
+    margin-bottom: 20px;
+}
+
+#image1{
+    -webkit-text-size-adjust: 100%;
+	background-image: url("../images/kindle2.png");
+	width: 780px;
+	height: 400px;
+	background-repeat: no-repeat;
+    margin: auto;
+	margin-top: 50px;
+	border: 2px rgba(0, 255, 21, 0.74) solid;
+	box-shadow: rgb(255, 255, 255) 2px 2px 4px;
+}
+
+#image2{
+    -webkit-text-size-adjust: 100%;
+	background-image: url("../images/kindle1.png");
+	width: 700px;
+	height: 464px;
+	background-repeat: no-repeat;
+	margin: auto;
+	margin-top: 50px;
+	border: 2px rgba(0, 255, 21, 0.74) solid;
+	box-shadow: rgb(255, 255, 255) 2px 2px 4px;
+}
+
+#image3{
+    -webkit-text-size-adjust: 100%;
+	background-image: url("../images/fone1.jpg");
+	width: 625px;
+	height: 417px;
+	background-repeat: no-repeat;
+	margin: auto;
+	margin-top: 50px;
+	border: 2px rgba(0, 255, 21, 0.74) solid;
+	box-shadow: rgb(255, 255, 255) 2px 2px 4px;
+}
+
+#image4{
+    -webkit-text-size-adjust: 100%;
+	background-image: url("../images/fone2.jpg");
+	width: 626px;
+	height: 417px;
+	background-repeat: no-repeat;
+    margin: auto;
+	margin-top: 50px;
+	border: 2px rgba(0, 255, 21, 0.74) solid;
+	box-shadow: rgb(255, 255, 255) 2px 2px 4px;
+}

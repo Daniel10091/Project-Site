@@ -1,0 +1,102 @@
+section{
+	-webkit-text-size-adjust: 100%;
+    text-align: center;
+}
+
+h1{
+	-webkit-text-size-adjust: 100%;
+    color: #25da15;
+    text-shadow: #ffffffcc 0px 0px 4px;
+    text-align: center;
+    margin-block-start: 2.5em;
+    margin-block-end: 0.25em;
+	font: 12px 'Open Sans',-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen-Sans","Ubuntu","Cantarell","Helvetica Neue",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.news{
+	-webkit-text-size-adjust: 100%;
+    display: inline-block;
+}
+
+#n1, #n2, #n3, #n4, #n5, #n6, #n7, #n8, #n9, #n10, #n11, #n12{
+	-webkit-text-size-adjust: 100%;
+    background-repeat: no-repeat;
+	border: 2px solid rgb(49, 214, 16);
+    box-shadow: #ffffff 0px 0px 5px;
+	padding: 5px;
+	border-radius: 0%;
+	margin: auto;
+	width: 350px;
+	height: 96.8px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 50px;
+	display: block;
+	text-align: center;
+} 
+
+#n1{
+	background-image: url(../images/n1.png);	
+}
+
+#n2{
+	background-image: url(../images/n2.png);
+}
+
+#n3{
+	background-image: url(../images/n3.png);
+}
+
+#n4{
+	background-image: url(../images/n4.png);
+}
+
+#n5{
+	background-image: url(../images/n5.png);
+}
+
+#n6{
+	background-image: url(../images/n6.png);
+}
+
+#n7{
+	background-image: url(../images/n7.png);
+}
+
+#n8{
+	background-image: url(../images/n_.png);
+}
+
+#n9{
+	background-image: url(../images/n_.png);
+}
+
+#n10{
+	background-image: url(../images/n_.png);
+}
+
+#n11{
+	background-image: url(../images/n_.png);
+}
+
+#n12{
+	background-image: url(../images/n_.png);
+}
+
+#n1:hover, #n2:hover, #n3:hover, #n4:hover, #n5:hover, #n6:hover, #n7:hover, #n8:hover, #n9:hover, #n10:hover, #n11:hover, #n12:hover{
+	-webkit-text-size-adjust: 100%;
+    border: 3.8px solid rgb(255, 255, 255);
+    box-shadow: #25d10f 0px 0px 10px;
+	outline: 0!important;
+    transition: all 0.5s ease 0s;
+}
+
+#n1:active, #n2:active, #n3:active, #n4:active, #n5:active, #n6:active, #n7:active, #n8:active, #n9:active, #n10:active, #n11:active, #n12:active{
+	-webkit-text-size-adjust: 100%;
+    border-radius: 50px;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: #25d10f 0px 0px 10px;
+    transition: all 0.1s ease 0s;
+}
